@@ -171,58 +171,5 @@ footer {
 
 }
 
-@media (max-width: 768px) {
 
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
-  header img {
-    max-width: 120px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  nav {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  nav a {
-    display: block;
-    margin: 8px 0;
-  }
-
-  .section {
-    padding: 40px 10px;
-  }
-
-  .bienvenida {
-    padding: 20%;
-    font-size: 1rem;
-  }
-
-  .contenedor-columnas {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .programa {
-    height: 250px;
-  }
-
-  .overlay {
-    font-size: 0.85rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
